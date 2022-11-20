@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DC06160292668C400EA7870 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0615F292668C400EA7870 /* AppDelegate.swift */; };
+		4DC06162292668C400EA7870 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC06161292668C400EA7870 /* SceneDelegate.swift */; };
+		4DC06164292668C400EA7870 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC06163292668C400EA7870 /* ViewController.swift */; };
+		4DC06167292668C400EA7870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC06165292668C400EA7870 /* Main.storyboard */; };
+		4DC06169292668C400EA7870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC06168292668C400EA7870 /* Assets.xcassets */; };
+		4DC0616C292668C400EA7870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC0616A292668C400EA7870 /* LaunchScreen.storyboard */; };
+		4DC0617629267BDF00EA7870 /* ARComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0617529267BDF00EA7870 /* ARComponent.swift */; };
+		4DC0617829267E9900EA7870 /* ARComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0617729267E9900EA7870 /* ARComponentView.swift */; };
+		4DC061812927809A00EA7870 /* CentralManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC061802927809A00EA7870 /* CentralManagerService.swift */; };
+		4DC061832927966500EA7870 /* PeripheralID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC061822927966500EA7870 /* PeripheralID.swift */; };
+		4DC061852927A7CD00EA7870 /* BluetoothConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC061842927A7CD00EA7870 /* BluetoothConnection.swift */; };
+		4DC0618A2928426600EA7870 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC061892928426600EA7870 /* ChatViewController.swift */; };
+		4DC0618C2928509100EA7870 /* PineConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0618B2928509100EA7870 /* PineConnection.swift */; };
+		4DD4E28D2928E65F001FC91B /* RequestExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD4E28C2928E65F001FC91B /* RequestExecutor.swift */; };
+		4DF3FA012929323B00654961 /* ChatPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3FA002929323B00654961 /* ChatPresenter.swift */; };
+		4DF3FA032929347600654961 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3FA022929347600654961 /* PopoverView.swift */; };
+		4DF3FA0829295FCA00654961 /* ARLoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3FA0729295FCA00654961 /* ARLoaderViewController.swift */; };
+		4DF3FA0A2929607500654961 /* ARLoaderPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3FA092929607500654961 /* ARLoaderPresenter.swift */; };
+		4DF3FA0D2929749400654961 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3FA0C2929749400654961 /* ARViewController.swift */; };
+		4DF3FA0F2929751200654961 /* ARPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3FA0E2929751200654961 /* ARPresenter.swift */; };
+		4DF3FA132929824B00654961 /* HintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3FA122929824B00654961 /* HintView.swift */; };
+		4DF3FA1529298FA800654961 /* ProgressPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3FA1429298FA800654961 /* ProgressPopoverView.swift */; };
+		4DF3FA182929AB4F00654961 /* ModeSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3FA172929AB4F00654961 /* ModeSelectionViewController.swift */; };
+		4DF3FA1B2929B1F700654961 /* ServerModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3FA1A2929B1F700654961 /* ServerModeViewController.swift */; };
+		4DF3FA1D2929B63B00654961 /* PineDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3FA1C2929B63B00654961 /* PineDataStorage.swift */; };
+		4DF3FA1F2929B75F00654961 /* ARWorldMapCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3FA1E2929B75F00654961 /* ARWorldMapCreationViewController.swift */; };
+		4DF3FA222929CBB000654961 /* PineStreamService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3FA202929CBB000654961 /* PineStreamService.swift */; };
+		4DF3FA232929CBB000654961 /* PeripheralManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3FA212929CBB000654961 /* PeripheralManagerService.swift */; };
+		4DF3FA272929E0B400654961 /* TextInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3FA262929E0B400654961 /* TextInputView.swift */; };
+		4DFFB2E5292925CE00886E43 /* MessagesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFB2E1292925CE00886E43 /* MessagesListView.swift */; };
+		4DFFB2E6292925CE00886E43 /* MessageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFB2E2292925CE00886E43 /* MessageInputView.swift */; };
+		4DFFB2E7292925CE00886E43 /* MessageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFB2E3292925CE00886E43 /* MessageViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4DC0615C292668C400EA7870 /* PineClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PineClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC0615F292668C400EA7870 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DC06161292668C400EA7870 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4DC06163292668C400EA7870 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DC06166292668C400EA7870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DC06168292668C400EA7870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DC0616B292668C400EA7870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DC0616D292668C400EA7870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC0617529267BDF00EA7870 /* ARComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARComponent.swift; sourceTree = "<group>"; };
+		4DC0617729267E9900EA7870 /* ARComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARComponentView.swift; sourceTree = "<group>"; };
+		4DC061802927809A00EA7870 /* CentralManagerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralManagerService.swift; sourceTree = "<group>"; };
+		4DC061822927966500EA7870 /* PeripheralID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralID.swift; sourceTree = "<group>"; };
+		4DC061842927A7CD00EA7870 /* BluetoothConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothConnection.swift; sourceTree = "<group>"; };
+		4DC061892928426600EA7870 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		4DC0618B2928509100EA7870 /* PineConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PineConnection.swift; sourceTree = "<group>"; };
+		4DD4E28C2928E65F001FC91B /* RequestExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestExecutor.swift; sourceTree = "<group>"; };
+		4DF3FA002929323B00654961 /* ChatPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPresenter.swift; sourceTree = "<group>"; };
+		4DF3FA022929347600654961 /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		4DF3FA0729295FCA00654961 /* ARLoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARLoaderViewController.swift; sourceTree = "<group>"; };
+		4DF3FA092929607500654961 /* ARLoaderPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARLoaderPresenter.swift; sourceTree = "<group>"; };
+		4DF3FA0C2929749400654961 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		4DF3FA0E2929751200654961 /* ARPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARPresenter.swift; sourceTree = "<group>"; };
+		4DF3FA122929824B00654961 /* HintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintView.swift; sourceTree = "<group>"; };
+		4DF3FA1429298FA800654961 /* ProgressPopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressPopoverView.swift; sourceTree = "<group>"; };
+		4DF3FA172929AB4F00654961 /* ModeSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSelectionViewController.swift; sourceTree = "<group>"; };
+		4DF3FA1A2929B1F700654961 /* ServerModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerModeViewController.swift; sourceTree = "<group>"; };
+		4DF3FA1C2929B63B00654961 /* PineDataStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PineDataStorage.swift; sourceTree = "<group>"; };
+		4DF3FA1E2929B75F00654961 /* ARWorldMapCreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARWorldMapCreationViewController.swift; sourceTree = "<group>"; };
+		4DF3FA202929CBB000654961 /* PineStreamService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PineStreamService.swift; sourceTree = "<group>"; };
+		4DF3FA212929CBB000654961 /* PeripheralManagerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralManagerService.swift; sourceTree = "<group>"; };
+		4DF3FA262929E0B400654961 /* TextInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputView.swift; sourceTree = "<group>"; };
+		4DFFB2E1292925CE00886E43 /* MessagesListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesListView.swift; sourceTree = "<group>"; };
+		4DFFB2E2292925CE00886E43 /* MessageInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageInputView.swift; sourceTree = "<group>"; };
+		4DFFB2E3292925CE00886E43 /* MessageViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DC06159292668C400EA7870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DC06153292668C400EA7870 = {
+			isa = PBXGroup;
+			children = (
+				4DC0615E292668C400EA7870 /* PineClient */,
+				4DC0615D292668C400EA7870 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DC0615D292668C400EA7870 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DC0615C292668C400EA7870 /* PineClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DC0615E292668C400EA7870 /* PineClient */ = {
+			isa = PBXGroup;
+			children = (
+				4DF3FA172929AB4F00654961 /* ModeSelectionViewController.swift */,
+				4DF3FA192929B1D800654961 /* ServerMode */,
+				4DF3FA0B2929747F00654961 /* ARViewController */,
+				4DF3FA0629295FA000654961 /* ARLoaderUI */,
+				4DFFB2DF292925BA00886E43 /* ChatUI */,
+				4DC0617F2927807F00EA7870 /* BluetoothConnection */,
+				4DC0617429267BCD00EA7870 /* ARComponent */,
+				4DD4E28E2928F5AE001FC91B /* Services */,
+				4DC06161292668C400EA7870 /* SceneDelegate.swift */,
+				4DC0615F292668C400EA7870 /* AppDelegate.swift */,
+				4DC06163292668C400EA7870 /* ViewController.swift */,
+				4DC06165292668C400EA7870 /* Main.storyboard */,
+				4DC06168292668C400EA7870 /* Assets.xcassets */,
+				4DC0616A292668C400EA7870 /* LaunchScreen.storyboard */,
+				4DC0616D292668C400EA7870 /* Info.plist */,
+			);
+			path = PineClient;
+			sourceTree = "<group>";
+		};
+		4DC0617429267BCD00EA7870 /* ARComponent */ = {
+			isa = PBXGroup;
+			children = (
+				4DC0617529267BDF00EA7870 /* ARComponent.swift */,
+				4DC0617729267E9900EA7870 /* ARComponentView.swift */,
+				4DF3FA122929824B00654961 /* HintView.swift */,
+			);
+			name = ARComponent;
+			sourceTree = "<group>";
+		};
+		4DC0617F2927807F00EA7870 /* BluetoothConnection */ = {
+			isa = PBXGroup;
+			children = (
+				4DC061802927809A00EA7870 /* CentralManagerService.swift */,
+				4DC061822927966500EA7870 /* PeripheralID.swift */,
+				4DC061842927A7CD00EA7870 /* BluetoothConnection.swift */,
+			);
+			name = BluetoothConnection;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4DD4E28E2928F5AE001FC91B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4DC0618B2928509100EA7870 /* PineConnection.swift */,
+				4DD4E28C2928E65F001FC91B /* RequestExecutor.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		4DF3FA0629295FA000654961 /* ARLoaderUI */ = {
+			isa = PBXGroup;
+			children = (
+				4DF3FA0729295FCA00654961 /* ARLoaderViewController.swift */,
+				4DF3FA092929607500654961 /* ARLoaderPresenter.swift */,
+			);
+			name = ARLoaderUI;
+			sourceTree = "<group>";
+		};
+		4DF3FA0B2929747F00654961 /* ARViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DF3FA0C2929749400654961 /* ARViewController.swift */,
+				4DF3FA0E2929751200654961 /* ARPresenter.swift */,
+				4DF3FA1429298FA800654961 /* ProgressPopoverView.swift */,
+			);
+			name = ARViewController;
+			sourceTree = "<group>";
+		};
+		4DF3FA192929B1D800654961 /* ServerMode */ = {
+			isa = PBXGroup;
+			children = (
+				4DF3FA212929CBB000654961 /* PeripheralManagerService.swift */,
+				4DF3FA202929CBB000654961 /* PineStreamService.swift */,
+				4DF3FA1C2929B63B00654961 /* PineDataStorage.swift */,
+				4DF3FA1A2929B1F700654961 /* ServerModeViewController.swift */,
+				4DF3FA1E2929B75F00654961 /* ARWorldMapCreationViewController.swift */,
+			);
+			name = ServerMode;
+			sourceTree = "<group>";
+		};
+		4DFFB2DF292925BA00886E43 /* ChatUI */ = {
+			isa = PBXGroup;
+			children = (
+				4DC061892928426600EA7870 /* ChatViewController.swift */,
+				4DF3FA002929323B00654961 /* ChatPresenter.swift */,
+				4DFFB2E2292925CE00886E43 /* MessageInputView.swift */,
+				4DFFB2E1292925CE00886E43 /* MessagesListView.swift */,
+				4DFFB2E3292925CE00886E43 /* MessageViewCell.swift */,
+				4DF3FA022929347600654961 /* PopoverView.swift */,
+				4DF3FA262929E0B400654961 /* TextInputView.swift */,
+			);
+			name = ChatUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DC0615B292668C400EA7870 /* PineClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC06170292668C400EA7870 /* Build configuration list for PBXNativeTarget "PineClient" */;
+			buildPhases = (
+				4DC06158292668C400EA7870 /* Sources */,
+				4DC06159292668C400EA7870 /* Frameworks */,
+				4DC0615A292668C400EA7870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PineClient;
+			productName = PineClient;
+			productReference = 4DC0615C292668C400EA7870 /* PineClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DC06154292668C400EA7870 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4DC0615B292668C400EA7870 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 4DC06157292668C400EA7870 /* Build configuration list for PBXProject "PineClient" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DC06153292668C400EA7870;
+			productRefGroup = 4DC0615D292668C400EA7870 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DC0615B292668C400EA7870 /* PineClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DC0615A292668C400EA7870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC0616C292668C400EA7870 /* LaunchScreen.storyboard in Resources */,
+				4DC06169292668C400EA7870 /* Assets.xcassets in Resources */,
+				4DC06167292668C400EA7870 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DC06158292668C400EA7870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF3FA272929E0B400654961 /* TextInputView.swift in Sources */,
+				4DF3FA0F2929751200654961 /* ARPresenter.swift in Sources */,
+				4DF3FA232929CBB000654961 /* PeripheralManagerService.swift in Sources */,
+				4DD4E28D2928E65F001FC91B /* RequestExecutor.swift in Sources */,
+				4DC06164292668C400EA7870 /* ViewController.swift in Sources */,
+				4DFFB2E5292925CE00886E43 /* MessagesListView.swift in Sources */,
+				4DF3FA1D2929B63B00654961 /* PineDataStorage.swift in Sources */,
+				4DC0618C2928509100EA7870 /* PineConnection.swift in Sources */,
+				4DC061852927A7CD00EA7870 /* BluetoothConnection.swift in Sources */,
+				4DC0618A2928426600EA7870 /* ChatViewController.swift in Sources */,
+				4DF3FA132929824B00654961 /* HintView.swift in Sources */,
+				4DF3FA012929323B00654961 /* ChatPresenter.swift in Sources */,
+				4DF3FA1529298FA800654961 /* ProgressPopoverView.swift in Sources */,
+				4DF3FA1B2929B1F700654961 /* ServerModeViewController.swift in Sources */,
+				4DF3FA1F2929B75F00654961 /* ARWorldMapCreationViewController.swift in Sources */,
+				4DC06160292668C400EA7870 /* AppDelegate.swift in Sources */,
+				4DF3FA0A2929607500654961 /* ARLoaderPresenter.swift in Sources */,
+				4DC0617629267BDF00EA7870 /* ARComponent.swift in Sources */,
+				4DF3FA0829295FCA00654961 /* ARLoaderViewController.swift in Sources */,
+				4DF3FA182929AB4F00654961 /* ModeSelectionViewController.swift in Sources */,
+				4DC06162292668C400EA7870 /* SceneDelegate.swift in Sources */,
+				4DFFB2E6292925CE00886E43 /* MessageInputView.swift in Sources */,
+				4DFFB2E7292925CE00886E43 /* MessageViewCell.swift in Sources */,
+				4DC0617829267E9900EA7870 /* ARComponentView.swift in Sources */,
+				4DF3FA222929CBB000654961 /* PineStreamService.swift in Sources */,
+				4DC061832927966500EA7870 /* PeripheralID.swift in Sources */,
+				4DC061812927809A00EA7870 /* CentralManagerService.swift in Sources */,
+				4DF3FA032929347600654961 /* PopoverView.swift in Sources */,
+				4DF3FA0D2929749400654961 /* ARViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DC06165292668C400EA7870 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DC06166292668C400EA7870 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DC0616A292668C400EA7870 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DC0616B292668C400EA7870 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DC0616E292668C400EA7870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DC0616F292668C400EA7870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DC06171292668C400EA7870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S34BZ3639A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PineClient/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nastia.PineClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DC06172292668C400EA7870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S34BZ3639A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PineClient/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nastia.PineClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DC06157292668C400EA7870 /* Build configuration list for PBXProject "PineClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC0616E292668C400EA7870 /* Debug */,
+				4DC0616F292668C400EA7870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC06170292668C400EA7870 /* Build configuration list for PBXNativeTarget "PineClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC06171292668C400EA7870 /* Debug */,
+				4DC06172292668C400EA7870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DC06154292668C400EA7870 /* Project object */;
+}
